@@ -12,10 +12,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ActivityMainBinding activityMainBinding;
-    ListAdapter adapter;
+    //Explicit
+    private ActivityMainBinding activityMainBinding;
+    private ListAdapter adapter;
 
-    List<String> arrayList= new ArrayList<>();
+    private List<String> arrayList= new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
